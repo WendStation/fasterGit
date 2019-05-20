@@ -1,0 +1,3 @@
+[console_scripts]
+gitHost = gitHost.gitHost:main
+

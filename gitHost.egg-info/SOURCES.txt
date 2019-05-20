@@ -1,0 +1,9 @@
+setup.py
+gitHost/__init__.py
+gitHost/gitHost.py
+gitHost.egg-info/PKG-INFO
+gitHost.egg-info/SOURCES.txt
+gitHost.egg-info/dependency_links.txt
+gitHost.egg-info/entry_points.txt
+gitHost.egg-info/requires.txt
+gitHost.egg-info/top_level.txt
