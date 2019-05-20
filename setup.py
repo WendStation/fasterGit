@@ -12,14 +12,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "gitHost",
-    version="0.1.0",
+    name = "fasterGit",
+    version="0.1.1",
     keywords = ("pip", "git", "gitHost", "host"),
     description = "Modify the host file to improve the speed of pulling git code",
     long_description = "Modify the host file to improve the speed of pulling git code",
     license = "MIT Licence",
 
-    url="https://github.com/WendStation/gitHost",
+    url="https://github.com/WendStation/fasterGit",
     author="handa",
     author_email="794363716@qq.com",
     package_data={
@@ -33,6 +33,6 @@ setup(
     platforms = "any",
     install_requires=["PyYAML"],
     entry_points={'console_scripts': [
-        "gitHost = gitHost.gitHost:main",
+        "fasterGit = fasterGit.fasterGit:main",
     ]}
 )

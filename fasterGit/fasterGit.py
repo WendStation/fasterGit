@@ -8,7 +8,7 @@ import yaml
 
 
 __author__ = "handa"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 def file_exist(filePath):
@@ -80,7 +80,7 @@ def writeToFile(string, filePath):
 
 def returnError(message=""):
     print str(message)
-    print ""
+    print "请确认您用了sudo命令。"
     exit(1)
 
 def gitIp(host):
@@ -131,16 +131,20 @@ def changHost():
             continue
         hostLines.append(line)
     # 添加新的地址
+    if "\n" not in hostLines[-1]:
+        hostLines.append(" \n")
     newGitHost = githubGlobleIPString + "\n" + githubIPString
     hostLines.append(newGitHost)
-    print  "开始把新地址写入host\n" + newGitHost
+    print "开始把新地址写入host\n" + newGitHost
     hostString = "".join(hostLines)
     writeToFile(hostString, hostPath)
 
     # 刷新
     cmd = "sudo killall -HUP mDNSResponder"
     print "刷新host：\n" + cmd
-    excommand_until_done(cmd)
+    returnCode, content = excommand_until_done(cmd)
+    if returnCode > 0:
+        returnError("请用sudo执行命令。")
 
 def main():
     print "当前版本：" + __version__

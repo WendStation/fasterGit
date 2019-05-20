@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
-Name: gitHost
+Name: fasterGit
 Version: 0.1.0
 Summary: Modify the host file to improve the speed of pulling git code
-Home-page: https://github.com/piaoying/gitHost
+Home-page: https://github.com/WendStation/fasterGit
 Author: handa
 Author-email: 794363716@qq.com
 License: MIT Licence
