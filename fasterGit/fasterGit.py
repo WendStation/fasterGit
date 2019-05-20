@@ -8,7 +8,7 @@ import yaml
 
 
 __author__ = "handa"
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 
 def file_exist(filePath):
@@ -112,15 +112,8 @@ def changHost():
             returnError("Error:\n" + content)
     print "源host备份文件在" + hostBackUp
 
-    print "获取 github.global.ssl.fastly.Net 的IP地址"
     githubGlobleHost = "github.global.ssl.fastly.net"
-    githubGlobleIP = gitIp(githubGlobleHost)
-    githubGlobleIPString = " ".join([githubGlobleIP, githubGlobleHost])
-
-    print "获取 github.com 的IP地址"
     githubHost = "github.com"
-    githubIP = gitIp(githubHost)
-    githubIPString = " ".join([githubIP, githubHost])
 
     hostContentLines = readLines(hostPath)
     hostLines = []
@@ -130,6 +123,17 @@ def changHost():
         if githubGlobleHost in line or githubHost in line:
             continue
         hostLines.append(line)
+    hostString = "".join(hostLines)
+    writeToFile(hostString, hostPath)
+
+    print "获取 github.global.ssl.fastly.Net 的IP地址"
+    githubGlobleIP = gitIp(githubGlobleHost)
+    githubGlobleIPString = " ".join([githubGlobleIP, githubGlobleHost])
+
+    print "获取 github.com 的IP地址"
+    githubIP = gitIp(githubHost)
+    githubIPString = " ".join([githubIP, githubHost])
+
     # 添加新的地址
     if "\n" not in hostLines[-1]:
         hostLines.append(" \n")

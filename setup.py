@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "fasterGit",
-    version="0.1.1",
+    version="0.1.2",
     keywords = ("pip", "git", "gitHost", "host"),
     description = "Modify the host file to improve the speed of pulling git code",
     long_description = "Modify the host file to improve the speed of pulling git code",

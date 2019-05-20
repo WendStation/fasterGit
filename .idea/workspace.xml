@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a939f8fa-0272-45e1-b576-80df80935aa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fasterGit.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fasterGit.egg-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fasterGit.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit.egg-info/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitHost/gitHost.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit/fasterGit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fasterGit.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fasterGit/fasterGit.py" beforeDir="false" afterPath="$PROJECT_DIR$/fasterGit/fasterGit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -34,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fasterGit/fasterGit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="278">
+              <caret line="139" column="16" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -68,13 +57,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/gitHost/gitHost.py" />
-        <option value="$PROJECT_DIR$/fasterGit/fasterGit.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/fasterGit/fasterGit.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
+    <option name="x" value="332" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -188,18 +177,18 @@
       <updated>1558062441219</updated>
       <workItem from="1558062442606" duration="1648000" />
       <workItem from="1558340457775" duration="6818000" />
-      <workItem from="1558347955180" duration="1143000" />
+      <workItem from="1558347955180" duration="2037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9609000" />
+    <option name="totallyTimeSpent" value="10503000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="23" width="1280" height="777" extended-state="0" />
+    <frame x="332" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25605816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25605816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,7 +202,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31970802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.31970802" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -261,17 +250,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fasterGit/fasterGit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fasterGit/fasterGit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="16" />
         </state>
       </provider>
     </entry>

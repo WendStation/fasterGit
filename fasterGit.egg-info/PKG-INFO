@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: fasterGit
-Version: 0.1.0
+Version: 0.1.2
 Summary: Modify the host file to improve the speed of pulling git code
 Home-page: https://github.com/WendStation/fasterGit
 Author: handa
